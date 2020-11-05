@@ -123,7 +123,8 @@ body {
   margin-left: 50px;
 }
 
-.site-nav .link {
+.site-nav .link,
+.kontaktu-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -271,7 +272,7 @@ body {
 .button.first:hover,
 .button.first:focus {
   color: var(--accent-color);
-  background-color: var(--primart-white-color);
+  background-color: var(--primary-white-color);
   border-color: blue;
 }
 /*menu*/
@@ -291,12 +292,18 @@ body {
 
 /*categ*/
 
+.categ-list .link {
+  margin-bottom: 110px;
+}
+
 .categ {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  margin: 0px;
 }
 
 .section-name {
@@ -305,10 +312,13 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: black;
-  margin-left: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-right: 24px;
+  margin: 0px;
 }
+
 /*
 .categ-section {
   padding-bottom: 94px;
