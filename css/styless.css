@@ -12,6 +12,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -44,6 +50,16 @@ body {
 .part-logo-footer {
   color: white;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.todo {
+  padding-top: 0px;
+}
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -61,6 +77,9 @@ body {
 .link {
   text-decoration: none;
 }
+.categ .link {
+  display: block;
+}
 
 .list {
   padding: 0;
@@ -70,10 +89,14 @@ body {
 
 /*hero title*/
 .hero {
-  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+}
+
+.hero-box {
+  text-align: center;
+  width: 696px;
 }
 
 .hero-title {
@@ -86,8 +109,6 @@ body {
   margin-bottom: 30px;
   color: var(--primary-white-color);
   width: 696px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* nav*/
@@ -154,10 +175,6 @@ body {
 }
 
 /*feature*/
-.feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .feature-list {
   display: flex;
@@ -181,9 +198,6 @@ body {
   line-height: 1.71;
 }
 /*todo*/
-.todo {
-  padding-bottom: 94px;
-}
 
 .todo-list {
   font-weight: bold;
@@ -206,8 +220,6 @@ body {
 
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-item {
@@ -239,7 +251,6 @@ body {
   color: var(--primary-text-color);
   background-color: var(--bg-color);
   border-radius: 4px;
-  font-size: 24px;
   text-align: center;
 }
 
@@ -249,6 +260,11 @@ body {
   border-color: transparent;
   text-decoration: none;
   padding: 10px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
 }
 
 .button.secondary {
