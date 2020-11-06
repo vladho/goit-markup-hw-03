@@ -56,23 +56,6 @@ img {
   padding-bottom: 94px;
 }
 
-.todo {
-  padding-top: 0px;
-}
-
-.name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-}
-
-.prof {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--text-color);
-}
 
 .link {
   text-decoration: none;
@@ -180,26 +163,43 @@ img {
   display: flex;
 }
 
+.feature-item {
+  width: calc(100% - 30px * 3) / 4;
+}
+
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-title {
+.feature-title {
   color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.07;
   text-transform: uppercase;
 }
 
-.text {
+.feature-text {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
-}
-/*todo*/
 
-.todo-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*example*/
+
+.example {
+  padding-top: 0px;
+}
+.example-list {
+  display: flex;
+}
+
+.example-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -208,12 +208,9 @@ img {
   margin-top: 0px;
 }
 
-.example {
-  display: flex;
-}
-
 .example .example-item + .example-item {
   margin-left: 30px;
+  ca
 }
 
 /*team*/
@@ -222,12 +219,27 @@ img {
   background-color: #f5f4fa;
 }
 
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color);
+}
+
 .team-item {
+  width: calc((100% - 30px * 3) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
+.team-title {
   margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
@@ -312,7 +324,7 @@ img {
   margin-bottom: 110px;
 }
 
-.categ {
+.categ-text {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
@@ -322,7 +334,7 @@ img {
   margin: 0px;
 }
 
-.section-name {
+.categ-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
