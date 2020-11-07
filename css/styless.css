@@ -56,7 +56,6 @@ img {
   padding-bottom: 94px;
 }
 
-
 .link {
   text-decoration: none;
 }
@@ -210,7 +209,6 @@ img {
 
 .example .example-item + .example-item {
   margin-left: 30px;
-  ca
 }
 
 /*team*/
@@ -312,10 +310,11 @@ img {
 .menu {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .menu-item:not(:last-child) {
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
 /*categ*/
@@ -328,9 +327,6 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
-  padding-left: 24px;
-  padding-bottom: 20px;
-  padding-right: 24px;
   margin: 0px;
 }
 
@@ -340,11 +336,11 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: black;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-right: 24px;
   margin: 0px;
+}
+
+.categ-review {
+  padding: 24px 20px;
 }
 
 /*
